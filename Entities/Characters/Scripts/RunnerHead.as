@@ -180,10 +180,9 @@ void ReloadHead(CSprite@ this)
 		{	
 		
 			head_index = 124;
-
 		}
 		
-		if (ply.getUsername() == "tutu20090404 ")
+		if (ply.getUsername() == "tutu20090404")
 		{	
 		
 			head_index = 125;
@@ -198,7 +197,7 @@ void ReloadHead(CSprite@ this)
 		if (ply.getUsername() == "Queen")
 		{	
 		
-			head_index = 126;
+			head_index = 127;
 
 		}
         // FIM CAPIVARAS CLAN
@@ -209,6 +208,13 @@ void ReloadHead(CSprite@ this)
 			head_index = 126;
 
 		}
+
+		if (ply.getUsername() == "coco_na_latinha")
+		{	
+		
+			head_index = 128;
+
+		}
 		
 		if (ply.getUsername() == "GoldenGuy")
 		{	
@@ -217,6 +223,13 @@ void ReloadHead(CSprite@ this)
 
 		}
 		
+		if (ply.getUsername() == "TheCustomerMan")
+		{	
+		
+			head_index = 119;
+
+		}
+
 		if (ply.getUsername() == "TheCustomerMan")
 		{	
 		
