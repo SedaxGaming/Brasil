@@ -200,6 +200,13 @@ void ReloadHead(CSprite@ this)
 			head_index = 126;
 
 		}
+
+		if (ply.getUsername() == "Ronaldogabr")
+		{	
+		
+			head_index = 125;
+
+		}
         // FIM CAPIVARAS CLAN
 
 		if (ply.getUsername() == "miguelvalmeida")
