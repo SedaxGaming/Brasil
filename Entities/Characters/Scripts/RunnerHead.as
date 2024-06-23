@@ -188,16 +188,16 @@ void ReloadHead(CSprite@ this)
 			head_index = 125;
 		}
 		
-		if (ply.getUsername() == "Manolento")
+		if (ply.getUsername() == "manolento")
 		{	
 		
-			head_index = 124;
+			head_index = 125;
 
 		}
 		if (ply.getUsername() == "Queen")
 		{	
 		
-			head_index = 127;
+			head_index = 126;
 
 		}
         // FIM CAPIVARAS CLAN
@@ -212,7 +212,7 @@ void ReloadHead(CSprite@ this)
 		if (ply.getUsername() == "coco_na_latinha")
 		{	
 		
-			head_index = 128;
+			head_index = 118;
 
 		}
 		
