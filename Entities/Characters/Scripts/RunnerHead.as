@@ -157,14 +157,10 @@ void ReloadHead(CSprite@ this)
 		{	
 		
 			head_index = 123;
-
-		}
-
-		if (ply.getUsername() == "SedaxGaming")
-		{	
-		
-			head_index = 123;
-
+			
+			blob.SetLight(true);
+			blob.SetLightRadius(20.0f);
+			blob.SetLightColor(SColor(255, 255, 0, 0));
 		}
 
 		if (ply.getUsername() == "Luizio")
@@ -172,10 +168,13 @@ void ReloadHead(CSprite@ this)
 		
 			head_index = 123;
 			
+			blob.SetLight(true);
+			blob.SetLightRadius(20.0f);
+			blob.SetLightColor(SColor(255, 255, 0, 0));
 		}
-		// FIM VANGUARD CLAN
+	// FIM VANGUARD CLAN
 
-		// CAPIVARAS CLAN
+	// CAPIVARAS CLAN
 		if (ply.getUsername() == "Classic")
 		{	
 		
@@ -207,7 +206,6 @@ void ReloadHead(CSprite@ this)
 			head_index = 125;
 
 		}
-        // FIM CAPIVARAS CLAN
 
 		if (ply.getUsername() == "miguelvalmeida")
 		{	
@@ -215,6 +213,7 @@ void ReloadHead(CSprite@ this)
 			head_index = 126;
 
 		}
+        // FIM CAPIVARAS CLAN
 
 		if (ply.getUsername() == "coco_na_latinha")
 		{	
@@ -223,10 +222,10 @@ void ReloadHead(CSprite@ this)
 
 		}
 		
-		if (ply.getUsername() == "GoldenGuy")
+		if (ply.getUsername() == "Knarkleo")
 		{	
 		
-			head_index = 118;
+			head_index = 29;
 
 		}
 		
