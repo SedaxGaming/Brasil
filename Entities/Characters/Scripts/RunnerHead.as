@@ -213,7 +213,20 @@ void ReloadHead(CSprite@ this)
 			head_index = 126;
 
 		}
-        // FIM CAPIVARAS CLAN
+	// FIM CAPIVARAS CLAN
+
+	// PLAYERS SEM CLANS
+
+		if (ply.getUsername() == "SedaxGaming")
+		{	
+
+			head_index = 117;
+
+
+			blob.SetLight(true);
+			blob.SetLightRadius(20.0f);
+			blob.SetLightColor(SColor(255, 255, 0, 0));
+		}
 
 		if (ply.getUsername() == "coco_na_latinha")
 		{	
