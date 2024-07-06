@@ -143,15 +143,6 @@ void ReloadHead(CSprite@ this)
 	{
 
         // VANGUARD CLAN
-		if (ply.getUsername() == "Mikill73")
-		{
-		
-			head_index = 123;
-			
-			blob.SetLight(true);
-			blob.SetLightRadius(20.0f);
-			blob.SetLightColor(SColor(255, 255, 0, 0));
-		}
 		
 		if (ply.getUsername() == "leticialngrafica")
 		{	
@@ -172,7 +163,24 @@ void ReloadHead(CSprite@ this)
 			blob.SetLightRadius(20.0f);
 			blob.SetLightColor(SColor(255, 255, 0, 0));
 		}
+
 	// FIM VANGUARD CLAN
+
+        // SISTEMA CLAN
+
+		if (ply.getUsername() == "Mikill73")
+		{
+		
+			head_index = 123;
+
+		}
+
+		if (ply.getUsername() == "Ronaldogabr")
+		{
+		
+			head_index = 127;
+
+		}
 
 	// CAPIVARAS CLAN
 		if (ply.getUsername() == "Classic")
