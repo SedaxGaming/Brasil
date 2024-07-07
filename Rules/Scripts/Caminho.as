@@ -1,4 +1,4 @@
 shared string getPath()
 {
-	return "../Mods/CustomHeads/";
+	return "../Mods/Brasil/";
 }
