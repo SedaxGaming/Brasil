@@ -19,6 +19,8 @@ SColor getNameColour(CPlayer@ p)
 		c = SColor(0xffa0ffa0); //guard
 	} else if (username == "Mikill73") {
 		c = SColor(0xff00FFEC);
+	} else if (username == "tutu200904004") {
+		c = SColor(0xff2EFF00);
 	} else if (isAdmin(p) && showColor) {
 		c = SColor(0xfffa5a00); //admin
 	} else if (p.getOldGold() && !p.isBot()) {
