@@ -3,6 +3,7 @@ void onInit(CRules@ this)
     AddScript(this, "Mensagens.as");
     AddScript(this, "Regeneracao.as");
     AddScript(this, "MVP_Coroa.as");
+    AddScript(this, "FimPartida.as");
     //scripts diversão
     AddScript(this, "Fun_Mikill_Adaptar.as");
 }
