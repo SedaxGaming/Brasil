@@ -193,6 +193,15 @@ Accolades@ getPlayerAccolades(string username)
 	LoadAccolades();
 	array<Accolades>@ a = getAccoladesArray();
 
+	//check for previous accolade
+	for(int i = 0; i < a.length; i++)
+	{
+		if(a[i].username == username)
+		{
+			return a[i];
+		}
+	}
+
 	//we haven't got a record for this player, construct anew!
 	Accolades ac(getAccoladesConfig(), username);
 	a.push_back(ac);
@@ -203,7 +212,7 @@ Accolades@ getPlayerAccolades(string username)
 	//todo: use a LRU elimination scheme
 
 	//(dynamic limit)
-	accolades_limit = getPlayersCount() + 5;
+	accolades_limit = getPlayersCount() + 2;
 	if(a.length > accolades_limit)
 	{
 		a.removeAt(0);
