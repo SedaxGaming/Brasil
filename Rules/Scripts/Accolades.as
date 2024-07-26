@@ -29,7 +29,7 @@ shared class Accolades
 	Accolades(ConfigFile@ cfg, string _username)
 	{
 		username = _username;
-		customHeadTexture = "../../Entities/Special/Custom/CustomHeads/" + username + ".png";
+		customHeadTexture = "/Entities/Special/Custom/CustomHeads/" + username + ".png";
 		array<string> slices;
 		if(cfg.readIntoArray_string(slices, username))
 		{
