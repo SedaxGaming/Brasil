@@ -227,9 +227,9 @@ Accolades@ getPlayerAccolades(string username)
 //(based on the frame order in the badges file)
 string[] accolade_description = {
 	//tourney
-	"Gold Medal - for Placing 1st in a Suitable Community Tournament",
-	"Silver Medal - for Placing 2nd in a Suitable Community Tournament",
-	"Bronze Medal - for Placing 3rd in a Suitable Community Tournament",
+	"Gold Medal - 1st in a Brazil Community Tournament",
+	"Silver Medal - 2nd in a Brazil Community Tournament",
+	"Bronze Medal - 3rd in a Brazil Community Tournament",
 	"Participation Ribbon - for Participating in a Suitable Community Tournament",
 	//misc
 	"Community Contributor - for significantly contributing to the KAG community in some way",
