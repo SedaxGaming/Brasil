@@ -52,7 +52,7 @@ void LoadSprites(CSprite@ this)
         {
             armour = CustomArmourType::PLAYER_ARMOUR_BLACK;
         }
-		else if (p.getUsername() == "Leticialngrafica")
+		else if (p.getUsername() == "leticialngrafica")
 		{
 			armour = CustomArmourType::PLAYER_ARMOUR_URSO;
 		}
