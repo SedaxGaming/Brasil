@@ -18,10 +18,10 @@ const int STAB_DELAY = 12;
 const int STAB_TIME = 20;
 // code for the following is a bit stupid, TODO: make it normal
 // x = WEAKSHOT_CHARGE
-const int WEAKSHOT_CHARGE = 6; // 12 (x+1) in reality
-const int MIDSHOT_CHARGE = 10; // 24 (x+13) in reality
-const int FULLSHOT_CHARGE = 20; // 36 (x+25) in reality
-const int TRIPLESHOT_CHARGE = 50; // 100 (x+89) in reality 
+const int WEAKSHOT_CHARGE = 10; // 12 (x+1) in reality
+const int MIDSHOT_CHARGE = 20; // 24 (x+13) in reality
+const int FULLSHOT_CHARGE = 30; // 36 (x+25) in reality
+const int TRIPLESHOT_CHARGE = 80; // 100 (x+89) in reality 
 
 void onInit(CBlob@ this)
 {
