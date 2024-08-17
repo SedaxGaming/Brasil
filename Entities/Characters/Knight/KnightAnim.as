@@ -18,7 +18,8 @@ enum CustomArmourType
     PLAYER_ARMOUR_CAPE,
     PLAYER_ARMOUR_GOLD,
     PLAYER_ARMOUR_BLACK,
-    PLAYER_ARMOUR_URSO
+    PLAYER_ARMOUR_URSO,
+    PLAYER_ARMOUR_SKULL
 }
 
 void onInit(CSprite@ this)
@@ -56,6 +57,10 @@ void LoadSprites(CSprite@ this)
 		{
 			armour = CustomArmourType::PLAYER_ARMOUR_URSO;
 		}
+		else if (p.getUsername() == "Ronaldogabr")
+		{
+			armour = CustomArmourType::PLAYER_ARMOUR_SKULL;
+		}
     }
 
     switch (armour)
@@ -71,6 +76,9 @@ void LoadSprites(CSprite@ this)
         break;
     case CustomArmourType::PLAYER_ARMOUR_BLACK: //cavaleiro negro
         ensureCorrectRunnerTexture(this, "knight_black", "KnightBlack");
+        break;
+	case CustomArmourType::PLAYER_ARMOUR_SKULL: //cavaleiro caveira
+        ensureCorrectRunnerTexture(this, "knight_skull", "KnightSkull");
         break;
 	case CustomArmourType::PLAYER_ARMOUR_URSO: //berserk ou usuario de machado
         ensureCorrectRunnerTexture(this, "knight_urso", "KnightUrso");
